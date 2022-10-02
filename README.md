@@ -12,6 +12,6 @@ npx hardhat test
 npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
-npx hardhat run --network rinkeby scripts/deploy.js
-npx hardhat verify --network rinkeby DEPLOYED_CONTRACT_ADDRESS
+npx hardhat run --goerli rinkeby scripts/deploy.js
+npx hardhat verify --goerli rinkeby DEPLOYED_CONTRACT_ADDRESS
 ```
