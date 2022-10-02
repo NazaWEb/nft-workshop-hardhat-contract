@@ -28,7 +28,7 @@ module.exports = {
     },
   },
   networks: {
-    rinkeby: {
+    goerli: {
       url: "",
       accounts: [""]
     }
